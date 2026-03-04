@@ -3,7 +3,7 @@ cask "chough" do
   name "chough"
   desc "Fast ASR CLI using Parakeet TDT 0.6b V3"
   homepage "https://github.com/hyperpuncher/chough"
-  version "0.2.4"
+  version "0.2.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,18 +17,18 @@ cask "chough" do
   on_macos do
     on_intel do
       url "https://github.com/hyperpuncher/chough/releases/download/v#{version}/chough_v#{version}_darwin_x86_64.tar.gz"
-      sha256 "1a0e0157359867791a55dcae401955d4927d9e685dbc20934f50057778bcc164"
+      sha256 "854db0de5479bf257092d629ada0ec60a845854c7ba1858eaab34ef3898926a0"
     end
     on_arm do
       url "https://github.com/hyperpuncher/chough/releases/download/v#{version}/chough_v#{version}_darwin_arm64.tar.gz"
-      sha256 "233dae22d46e5ca1faba7d1c8415b6ccfcd2205de2df9c984b8ec142326098f0"
+      sha256 "78ec3bf28bda8e97ef67b836b8854e60d8433a079ecb8ab89972d428847ebcd7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hyperpuncher/chough/releases/download/v#{version}/chough_v#{version}_linux_x86_64.tar.gz"
-      sha256 "15efbf8dd14dc78d2ca2fbd2a8d66be5aedd28e1c5d2d5c5cc5463c7dec8f9a8"
+      sha256 "84373d43d7a4f5bf03576b0424a1890978ab911170a1c5c9ecd1d329172ac8d2"
     end
   end
 
