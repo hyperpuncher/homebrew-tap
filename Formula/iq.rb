@@ -1,26 +1,26 @@
 class Iq < Formula
   desc "Interactive jq REPL"
   homepage "https://github.com/hyperpuncher/iq"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.1/iq-darwin-arm64"
-      sha256 "7cdc4903dd38b6dd5756f5aee4911f8e8e2b32f4fabd710861ffc827a3db0657"
+      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.2/iq-darwin-arm64"
+      sha256 "0a119ce26b91871130db4447ce6af80532926a0a5835dbe9af5bc7fb80dc6253"
     else
-      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.1/iq-darwin-x64"
-      sha256 "36de8fff9bc09fa27dd390d3944615fcf39179ab73420b7853f43fff14e171fd"
+      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.2/iq-darwin-x64"
+      sha256 "92b4ce892a9d6e07301e259ae189483107fa271aaa747bd7921667471bb2d942"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.1/iq-linux-arm64"
-      sha256 "85a7e8ddc6420c0faa6c80ed6e429affe03134e49c98641fe4a93f34edfbfbe7"
+      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.2/iq-linux-arm64"
+      sha256 "5afdcd8a147d784c2ea4cd6087ae89ce31b19f5dfba0b82e31264fa83e9b842b"
     else
-      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.1/iq-linux-x64"
-      sha256 "a4e18952379633ae4a1712f85910d939fd3c74ae457603fbd351df55b5a0f46f"
+      url "https://github.com/hyperpuncher/iq/releases/download/v0.3.2/iq-linux-x64"
+      sha256 "746372947ba5c9830b864e0a77be8dbfc85fce35d95d6276ed6429404d01bb6a"
     end
   end
 
