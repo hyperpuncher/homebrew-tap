@@ -1,17 +1,17 @@
 class PiUiServer < Formula
   desc "Use pi-ui in your browser"
   homepage "https://github.com/hyperpuncher/pi-ui"
-  version "0.27.0"
+  version "0.27.1"
   depends_on :macos
 
   on_macos do
     on_arm do
       url "https://github.com/hyperpuncher/pi-ui/releases/download/v#{version}/pi-ui-server-darwin-arm64.zip"
-      sha256 "f37a71c749157e3edc6a0730e2161f4528af1c33210da73dc8520111bd264f5c"
+      sha256 "264bdb429fde952812b490f4a341cff64faf7517a03ffea22e3e7e837415cc82"
     end
     on_intel do
       url "https://github.com/hyperpuncher/pi-ui/releases/download/v#{version}/pi-ui-server-darwin-x64.zip"
-      sha256 "51f4737c1092ea804ed580219a0189b1c172ca4d20d295d5427670df2d871ff5"
+      sha256 "4d8c0a484257f6c8ccdf0ed70ec6346a45e73cd161bfd9b0685af027c8e18e17"
     end
   end
 
