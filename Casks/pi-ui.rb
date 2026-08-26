@@ -1,17 +1,17 @@
 cask "pi-ui" do
-  version "0.37.0"
+  version "0.37.1"
   name "pi-ui"
   desc "Minimal GUI for pi"
   homepage "https://github.com/hyperpuncher/pi-ui"
 
   on_arm do
     url "https://github.com/hyperpuncher/pi-ui/releases/download/v#{version}/pi-ui-darwin-arm64.zip"
-    sha256 "b895966849269f0608ff597fdde392e36467b7622477c8f3ae125049ed97df1b"
+    sha256 "0bf9c402e7abb1f5d5565c5f8e440a05876681e8a56e25fed4304fe79a90bba2"
   end
 
   on_intel do
     url "https://github.com/hyperpuncher/pi-ui/releases/download/v#{version}/pi-ui-darwin-x64.zip"
-    sha256 "cf5eb98232e7726686a6713b155e3e8f014cf0ef7a51cb066c2c126d56ea81b5"
+    sha256 "1271d5a7a54492c3ec2aca34ea39c1a3a4846e6fb4d886150b7ced0ce44cef22"
   end
 
   app "pi-ui.app"
