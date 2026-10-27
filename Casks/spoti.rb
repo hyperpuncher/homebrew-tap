@@ -1,6 +1,6 @@
 cask "spoti" do
-  version "0.5.0"
-  sha256 "a0247b0ae6cdca40ccf859ef88aa271fd96177de7a9be3bbfb9ee9d6d4b37f09"
+  version "0.5.1"
+  sha256 "b0901e08d14b3e3eee834396264d6c2942ca96068397acfa5c85ffd38a60798e"
 
   url "https://github.com/hyperpuncher/spoti/releases/download/v#{version}/spoti-macos-arm64.tar.zst"
   name "spoti"
@@ -15,5 +15,5 @@ cask "spoti" do
   depends_on formula: "sdl3_image"
   depends_on formula: "sdl3_ttf"
 
-  app "Spoti.app"
+  app "spoti.app"
 end
