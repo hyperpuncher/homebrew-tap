@@ -1,6 +1,6 @@
 cask "spoti" do
-  version "0.6.1"
-  sha256 "0db1629a60f97323f255126a338d8fe368573766a27743007ef732db225da9a3"
+  version "0.7.0"
+  sha256 "80185ced6d064710ea950ccad5fe78b66fbb40005e52aa85071f52268ca889e7"
 
   url "https://github.com/hyperpuncher/spoti/releases/download/v#{version}/spoti-macos-arm64.tar.zst"
   name "spoti"
@@ -10,10 +10,8 @@ cask "spoti" do
   depends_on arch: :arm64
   depends_on macos: :tahoe
   depends_on formula: "curl"
-  depends_on formula: "fontconfig"
   depends_on formula: "sdl3"
   depends_on formula: "sdl3_image"
-  depends_on formula: "sdl3_ttf"
 
   app "spoti.app"
 end
