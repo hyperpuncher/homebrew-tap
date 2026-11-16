@@ -1,6 +1,6 @@
 cask "spoti" do
-  version "0.7.0"
-  sha256 "80185ced6d064710ea950ccad5fe78b66fbb40005e52aa85071f52268ca889e7"
+  version "0.8.0"
+  sha256 "d3c99b1fb99831e235ed95c5500a4cfd75ee9d0359381cad2374d871a698c931"
 
   url "https://github.com/hyperpuncher/spoti/releases/download/v#{version}/spoti-macos-arm64.tar.zst"
   name "spoti"
